@@ -209,12 +209,17 @@ a {
         font-family: 'Roboto', sans-serif;
     }
 
+    .nav .container .opciones {
+        height: 55px;
+        display: flex;
+    }
+
     .container.datos {
-        height: 330px;
+        height: 400px;
     }
  
     .container.datos .contenido {
-        margin-top: 100px;
+        margin-top: 180px;
     }
 
     .media .user {
