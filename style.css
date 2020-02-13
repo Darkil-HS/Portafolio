@@ -245,7 +245,7 @@ a {
         color: seagreen;
         font-family: 'Archivo Black', sans-serif;
         font-size: 45px;
-        padding-left: 80px;
+        padding-left: 70px;
     }
 
     .container .contenedor .titulo h1 {
@@ -277,8 +277,8 @@ a {
     }
 
     .container.estudios {
-        margin-top: 20px;
-        height: 450px;
+        margin-top: 10px;
+        height: 480px;
         margin-bottom: 170px;
     }
 
@@ -303,6 +303,7 @@ a {
         margin-left: 55px;
         font-size: 30px;  
     }
+
 
     .contacto .container.contact {
         height: 200px;
