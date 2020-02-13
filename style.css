@@ -122,6 +122,11 @@ a {
     
 }
 
+.container .contenedor .descripcion li b {
+    font-size: 19px;
+    color:ivory;
+}
+
 .container .contenedor .descripcion li {
     font-size: 18px;
     color: #fefefe;
