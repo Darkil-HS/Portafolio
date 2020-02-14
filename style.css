@@ -261,11 +261,18 @@ a {
     
     .cara {
         position:absolute;
-        height:20px;
-        width:25px;
-        top: 21px;
-        margin-left: 1px;
+        height:23px;
+        width:28px;
+        top: 19px;
+        margin-right: 1px;
         z-index: 1;
+        transition: 1s;
+    }
+
+    .cara:hover{
+        width: 29px;
+        height: 24px;
+        top: 19px;
         transition: 1s;
     }
 
