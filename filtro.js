@@ -8,7 +8,7 @@ $(function () {
     window.addEventListener('resize', function(){
         let perfil = $('#datos').offset().top,
         proyectos = $('#proyectos').offset().top,
-        estudios = $('#estudios').offset().top-20,
+        estudios = $('#estudios').offset().top,
         contacto = $('#contacto').offset().top;
     });
 
@@ -22,14 +22,14 @@ $(function () {
     $('#e-proyectos').on('click', function(e){
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: proyectos-50
+            scrollTop: proyectos-80
         },600);
     });
 
     $('#e-estudios').on('click', function(e){
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: estudios-130
+            scrollTop: estudios-80
         },600);
     });
 
