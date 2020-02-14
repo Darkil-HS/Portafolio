@@ -7,8 +7,8 @@ $(function () {
 
     window.addEventListener('resize', function(){
         let perfil = $('#datos').offset().top,
-        proyectos = $('#proyectos').offset().top - 70,
-        estudios = $('#estudios').offset().top + 90,
+        proyectos = $('#proyectos').offset().top,
+        estudios = $('#estudios').offset().top-20,
         contacto = $('#contacto').offset().top;
     });
 
