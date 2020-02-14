@@ -338,10 +338,10 @@ a {
     
     .container.estudios .titulo {
         width: 100%;
-        padding-top: 0px;
+        padding-top: 10px;
         padding-bottom: 0px;
         margin-bottom: 0px;
-        font-size: 30px;  
+        font-size: 32px;  
         text-align: center;
     }
 
