@@ -318,8 +318,8 @@ a {
 
     .container.estudios {
         margin-top: 10px;
-        height: 480px;
-        margin-bottom: 170px;
+        height: 580px;
+        margin-bottom: 0px;
     }
 
     
@@ -345,12 +345,27 @@ a {
         text-align: center;
     }
 
+    .contacto .container-fila .col-12{
+        width: 100%;
+    }
+
+    .contacto .container-fila {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .contacto .container .container-fila p{
+        font-size: 22px;
+        padding-top: 30px;
+    }
+
     .contacto .container.contact {
-        height: 250px;
+        height: 450px;
         display: flex;
     }
     .contacto .container .redes {
-        padding-left: 80px;
+        padding-left: 50px;
     }
 
     .contacto .box-footer {
