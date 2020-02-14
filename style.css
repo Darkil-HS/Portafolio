@@ -345,6 +345,11 @@ a {
         text-align: center;
     }
 
+    .container.estudios .institucion a{
+        width: 100%;
+        text-align: center;
+    }
+
     .contacto .container-fila .col-12{
         width: 100%;
     }
@@ -357,11 +362,11 @@ a {
 
     .contacto .container .container-fila p{
         font-size: 22px;
-        padding-top: 30px;
+        padding-top: 70px;
     }
 
     .contacto .container.contact {
-        height: 450px;
+        height: 480px;
         display: flex;
     }
     .contacto .container .redes {
