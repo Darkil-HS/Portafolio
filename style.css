@@ -22,7 +22,7 @@ a {
 }
 
 .nav-2 {
-    background: rgb(34, 37, 41);  /* fallback for old browsers */
+    background: rgba(46, 48, 51, 0.99);  /* fallback for old browsers */
     -webkit-box-shadow: 2px 2px 4px 1px rgba(122, 121, 122, 0.1);
     -moz-box-shadow: 2px 2px 4px 1px rgba(110,107,110,0.1);
     box-shadow: 2px 2px 4px 1px rgba(110,107,110,0.1);
