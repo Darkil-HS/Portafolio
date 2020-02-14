@@ -66,6 +66,10 @@ a {
     width: 100%;
 }
 
+.nav .container .opciones .row .col-3{
+    text-align: center;
+}
+
 .nav .container .opciones .row .col-2 {
     width: 20%;
 }
