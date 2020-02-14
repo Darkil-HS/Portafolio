@@ -241,8 +241,8 @@ a {
     }
 
     .container.datos {
-        height: 550px;
-        padding-top: 50px;
+        height: 600px;
+        padding-top: 80px;
     }
  
     .container.datos .contenido {
@@ -251,8 +251,8 @@ a {
     }
 
     .media .user {
-        width: 110px;
-        height: 212px;
+        width: 150px;
+        height: 220px;
         border-radius: 2px;
         -webkit-box-shadow: 1px 2px 4px 1px rgba(161,145,161,1);
         -moz-box-shadow: 1px 2px 4px 1px rgba(161,145,161,1);
@@ -263,13 +263,13 @@ a {
         color: #2f2f2f ;
         text-decoration: none;
         padding-bottom: 20px;
-        font-size: 23px;
+        font-size: 25px;
         transition: 0.1s;
     }
     
     .container.datos .info .datos-personales h4 {
         font-family: 'Roboto', sans-serif;
-        font-size: 13px;
+        font-size: 15px;
     }
 
 
