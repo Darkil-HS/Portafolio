@@ -297,13 +297,13 @@ a {
     }
 
     .container.datos {
-        height: 600px;
+        height: 630px;
         padding-top: 80px;
     }
  
     .container.datos .contenido {
         margin-top: 70px;
-        padding-top: 10px;
+        padding-top: 15px;
     }
 
     .media .user {
