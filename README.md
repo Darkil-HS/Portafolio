@@ -1,4 +1,4 @@
-# Portafolio
+# 🚀  Portafolio
 _Datos personales y proyectos realizados_
 
 ## Contenido 📦
@@ -7,7 +7,7 @@ _Datos personales y proyectos realizados_
 * Estudios
 * Contactos
 
-### Tecnologias usadas
+### Tecnologias usadas 📄
 * Html5
 * Css3
 * Java Script
