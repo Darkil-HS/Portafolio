@@ -384,6 +384,7 @@ a {
     
     .container.estudios .institucion {
         display: flex;
+        padding-left: 0px;
     }
 
     .container.estudios .institucion a{
