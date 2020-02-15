@@ -250,6 +250,10 @@ a {
         padding-left: 25px;
     }
 
+    .foto-user {
+        padding-left: 0;
+    }
+
     .aura {
         position:absolute;
         height:52px;
