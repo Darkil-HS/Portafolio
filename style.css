@@ -246,9 +246,8 @@ a {
 
 
 @media screen and (max-width : 800px)  { 
-
-    .media{
-        margin-left: 25px;
+    .media {
+        padding-left: 25px;
     }
 
     .aura {
@@ -330,7 +329,7 @@ a {
         padding-top: 30px;
         color: seagreen;
         font-family: 'Archivo Black', sans-serif;
-        font-size: 45px;
+        font-size: 40px;
         padding-left: 70px;
     }
 
@@ -421,9 +420,6 @@ a {
     .contacto .container.contact {
         height: 480px;
         display: flex;
-    }
-    .contacto .container .redes {
-        padding-left: 50px;
     }
 
     .contacto .box-footer {
