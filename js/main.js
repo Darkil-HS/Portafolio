@@ -3,7 +3,6 @@ let nav = document.getElementById('nav-');
 
 function menus(){
     let des_actual = window.pageYOffset;
-
     if(des_actual <= 100){
         nav.classList.remove = 'nav-2';
         nav.className = 'nav';
@@ -16,11 +15,7 @@ function menus(){
 }
 
 window.addEventListener('scroll',function(){
-    menus();
-    
+    menus();  
 });
 
-window.addEventListener('click',function(e){
-    console.log(e.target);
-});
 

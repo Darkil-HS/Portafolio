@@ -1,14 +1,16 @@
+/* Estilos globales*/
 *{
     padding: 0;
     margin: 0;
     border: 0;
-
 }
 
 a {
     text-decoration: none;
 }
 
+
+/* Barra de navegacion */
 .nav {
     background: #2f2f2f;  /* fallback for old browsers */
     -webkit-box-shadow: 2px 2px 4px 1px rgba(122, 121, 122, 0.1);
@@ -33,7 +35,6 @@ a {
     width: 100%;
 }
 
-
 .nav .container .col-5 {
     display: flex;
 }
@@ -43,13 +44,8 @@ a {
     align-items: center;
 }
 
-.logo {
-    width: 55px;
-    height: 50px;
-    margin-left: 50px;
-    cursor: pointer;
-}
 
+/* Logo */
 .aura {
     position:absolute;
     height:65px;
@@ -75,12 +71,8 @@ a {
     transition: 1s;
 }
 
-.logo:hover {
-    transition: 0.1s;
-    width: 57px;
-    height: 52px;
-}
 
+/* Lista de opciones del nav */
 .nav .container .opciones {
     height: 52px;
     display: flex;
@@ -113,6 +105,8 @@ a {
     transition: 0.1s;
 }
 
+
+/* Datos del usuario */
 .box-datos {
     background-color: #f7f7f7;
 }
@@ -126,6 +120,8 @@ a {
     padding-top: 150px;
 }
 
+
+/* Foto */
 .media .user {
     width: 200px;
     height: 312px;
@@ -135,6 +131,8 @@ a {
     box-shadow: 1px 2px 4px 1px rgba(161,145,161,0.5);
 }
 
+
+/* Datos */
 .container.datos .info .titulo h2 {
     font-family: 'Archivo Black', sans-serif;
     font-size: 45px;
@@ -145,6 +143,8 @@ a {
     font-family: 'Roboto', sans-serif;
 }
 
+
+/* Proyectos */
 .box-color {
     background-color: #212121;
 }
@@ -184,6 +184,8 @@ a {
     font-family: 'Roboto', sans-serif;
 }
 
+
+/* Estudios */
 .container.estudios {
     margin-top: 40px;
     height: 350px;
@@ -207,6 +209,8 @@ a {
     transition: 0.1s;
 }
 
+
+/* Contacto */
 .contacto {
     background-color: #212121;
 }
@@ -246,14 +250,26 @@ a {
 
 
 @media screen and (max-width : 800px)  { 
-    .media {
-        padding-left: 25px;
+    /* Barra de navegacion */
+    .opciones .row .opcion {
+        color: floralwhite ;
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
     }
 
-    .foto-user {
-        padding-left: 0;
+    .opciones .row .opcion:hover {
+        color: floralwhite ;
+        font-size: 13px;
+        font-family: 'Roboto', sans-serif;
     }
 
+    .nav .container .opciones {
+        height: 55px;
+        display: flex;
+    }
+
+
+    /* Logo */
     .aura {
         position:absolute;
         height:52px;
@@ -279,21 +295,10 @@ a {
         transition: 1s;
     }
 
-    .opciones .row .opcion {
-        color: floralwhite ;
-        font-size: 12px;
-        font-family: 'Roboto', sans-serif;
-    }
 
-    .opciones .row .opcion:hover {
-        color: floralwhite ;
-        font-size: 13px;
-        font-family: 'Roboto', sans-serif;
-    }
-
-    .nav .container .opciones {
-        height: 55px;
-        display: flex;
+    /* Datos */
+    .media {
+        padding-left: 25px;
     }
 
     .container.datos {
@@ -306,6 +311,10 @@ a {
         padding-top: 15px;
     }
 
+    .foto-user {
+        padding-left: 0;
+    }
+
     .media .user {
         width: 160px;
         height: 220px;
@@ -315,21 +324,28 @@ a {
         box-shadow: 1px 2px 4px 1px rgba(161,145,161,0.3);
     }
 
+    .container.datos .info {
+        padding-top: 30px;
+    }
+
     .container.datos .info .titulo h2 {
         color: #2f2f2f ;
         text-decoration: none;
         padding-bottom: 20px;
         font-size: 25px;
         transition: 0.1s;
+        text-align: center;
     }
     
     .container.datos .info .datos-personales h4 {
         font-family: 'Roboto', sans-serif;
         font-size: 15px;
+        padding-left: 70px;
     }
 
-
-    .container.proyectos .row h1{
+    
+    /* Proyectos */
+    .container.proyectos .row h1 {
         padding-top: 30px;
         color: seagreen;
         font-family: 'Archivo Black', sans-serif;
@@ -346,21 +362,7 @@ a {
         padding-left: 25px;
         
     }
-
-    .container.datos .info{
-        padding-top: 30px;
-    }
     
-    .container.datos .info .titulo h2 {
-        text-align: center;
-    }
-    
-    .container.datos .info .datos-personales h4 {
-        font-family: 'Roboto', sans-serif;
-        padding-left: 70px;
-    }
-    
-
     .container .contenedor .descripcion li b {
         font-size: 12px;
         color:ivory;
@@ -372,12 +374,13 @@ a {
         font-family: 'Roboto', sans-serif;
     }
 
+
+    /* Estudios */
     .container.estudios {
         margin-top: 10px;
         height: 580px;
         margin-bottom: 0px;
     }
-
     
     .container.estudios .institucion {
         display: flex;
@@ -406,6 +409,8 @@ a {
         text-align: center;
     }
 
+
+    /* Contactos */
     .contacto .container-fila .col-12{
         width: 100%;
     }
@@ -430,5 +435,4 @@ a {
         width: 100%;
         height: 50px;
     }
-
 }

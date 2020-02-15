@@ -26,8 +26,6 @@ $(function () {
         },600);
     });
 
-  
-
     $('#e-estudios').on('click', function(e){
         e.preventDefault();
         $('html, body').animate({
@@ -42,11 +40,4 @@ $(function () {
         },600);
     });
 
-    console.log(perfil);
-    console.log(proyectos);
-    console.log(estudios);
-    console.log(contacto);
-
-    
 });
-
