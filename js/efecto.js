@@ -11,6 +11,7 @@ $('#e-perfil').click(function(){
         if(degree < 360){
             // Animate rotation with a recursive call
             setTimeout(function() { rotate(++degree); });
+           
         }
     }
 });
