@@ -26,6 +26,8 @@ $(function () {
         },600);
     });
 
+  
+
     $('#e-estudios').on('click', function(e){
         e.preventDefault();
         $('html, body').animate({
@@ -47,3 +49,4 @@ $(function () {
 
     
 });
+
